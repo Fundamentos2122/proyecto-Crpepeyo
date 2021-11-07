@@ -1,0 +1,70 @@
+img
+    {
+        display: inline-block;
+    }
+    li
+    {
+        list-style: none;
+    }
+    #face:before 
+    {
+        content: '';
+        display: inline-block;
+        height: 25px;
+        width: 35px;
+        background-image: url('../banner/facebook.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-left: -35px;
+    }
+    #whats:before 
+    {
+        content: '';
+        display: inline-block;
+        height: 25px;
+        width: 35px;
+        background-image: url('../banner/whatsapp.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-left: -35px;
+    }      
+    #inicio:before 
+    {
+        content: '';
+        display: inline-block;
+        height: 25px;
+        width: 35px;
+        background-image: url('../banner/pagina-de-inicio.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    } 
+    #usuario:before 
+    {
+        content: '';
+        display: inline-block;
+        height: 25px;
+        width: 35px;
+        background-image: url('../banner/agregar-usuario.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #compras:before 
+    {
+        content: '';
+        display: inline-block;
+        height: 25px;
+        width: 35px;
+        background-image: url('../banner/comprar.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #perfil:before 
+    {
+        content: '';
+        display: inline-block;
+        height: 25px;
+        width: 35px;
+        background-image: url('../banner/usuario.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }

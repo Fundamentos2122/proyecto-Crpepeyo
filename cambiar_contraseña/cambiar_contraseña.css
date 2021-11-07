@@ -1,0 +1,42 @@
+.center
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contraseñaAnt:before 
+{
+    content: '';
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    background-image: url('../login/password.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: -1.5em;
+    margin-left: -1.5em;
+}      
+
+#contraseñaNueva:before 
+{
+    content: '';
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    background-image: url('../cambiar_contraseña/key.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: -1.5em;
+    margin-left: -1.5em;
+} 
+
+.separa
+{
+    margin: 0 3em;
+}
+
+.textSize
+{
+    font-size: 1em;
+}

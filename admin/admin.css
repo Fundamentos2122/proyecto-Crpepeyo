@@ -1,0 +1,55 @@
+.center
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#usuarioEnter:before 
+{
+    content: '';
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    background-image: url('../login/user.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: -1.5em;
+    margin-left: -1.5em;
+}      
+
+#contraseña:before 
+{
+    content: '';
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    background-image: url('../login/password.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: -1.5em;
+    margin-left: -1.5em;
+} 
+
+.separa
+{
+    margin: 0 3em;
+}
+
+.textSize
+{
+    font-size: 1em;
+}
+
+#añadirProd::before
+{
+    content: '';
+    display: inline-block;
+    height: 2em;
+    width: 2em;
+    background-image: url('../admin/add.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: -.5em;
+    margin-right: .5em;
+}

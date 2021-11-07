@@ -1,0 +1,30 @@
+#carrito:before 
+{
+        content: '';
+        display: block;
+        height: 2em;
+        width: 2em;
+        background-image: url('../banner/comprar.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        text-align: center;
+        margin: 0 auto;
+}
+
+#carrito
+{
+    font-size: 1.5em;
+}
+
+#upload:before 
+{
+        content: '';
+        display: inline-block;
+        height: 2em;
+        width: 2em;
+        background-image: url('../producto/upload.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        text-align: center;
+        margin-right: .5em;
+}
