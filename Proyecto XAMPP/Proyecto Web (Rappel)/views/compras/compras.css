@@ -1,0 +1,27 @@
+.space
+{
+   text-align: center;
+   padding: 0;
+   margin: auto auto;
+}
+
+.btnCompras
+{
+   margin: 1em .5em;
+   float:right;
+}
+
+.spaceImg
+{
+   padding: 0 5px;
+}
+
+@media(max-width:768px)
+{
+   .btnCompras
+   {
+      margin: .3em 0;
+      float:right;
+   }
+   
+}

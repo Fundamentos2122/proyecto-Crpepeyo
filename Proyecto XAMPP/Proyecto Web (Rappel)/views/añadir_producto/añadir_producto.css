@@ -1,0 +1,64 @@
+#editar:before 
+{
+        content: '';
+        display: block;
+        height: 2em;
+        width: 2em;
+        background-image: url('../añadir_producto/diskette.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        text-align: center;
+        margin: 0 auto;
+}
+
+#editar
+{
+    font-size: 1.5em;
+    justify-content: center;
+}
+
+#borrar:before 
+{
+        content: '';
+        display: block;
+        height: 2em;
+        width: 2em;
+        background-image: url('../añadir_producto/borrar.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        text-align: center;
+        margin: 0 auto;
+}
+
+#borrar
+{
+    font-size: 1.5em;
+    justify-content: center;
+}
+
+#upload:before 
+{
+        content: '';
+        display: inline-block;
+        height: 2em;
+        width: 2em;
+        background-image: url('../producto/upload.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        text-align: center;
+        margin-right: .5em;
+}
+
+.btnEdit
+{
+    font-size: .8em;
+}
+
+.redondo
+{
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    text-align: center;
+    padding: 0;
+}

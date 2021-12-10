@@ -1,0 +1,47 @@
+.center
+{
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.flechaI
+{
+    margin-right: 1em;
+    font-size: 2em;
+}
+
+.flechaD
+{
+    margin-left: 1em;
+    font-size: 2em;
+}
+
+#descripcion
+{
+    font-size: 2em; 
+    text-align: center;
+}
+
+@media(max-width:768px)
+{
+    .flechaI
+    {
+        margin-right: 0;
+        padding: 5px 10px;
+        font-size: 1em;
+    }
+
+    .flechaD
+    {
+        margin-left: 0;
+        padding: 5px 10px;
+        font-size: 1em;
+    }
+    #descripcion
+    {
+        font-size: 1.5em; 
+        text-align: center;
+    }
+}
